@@ -46,5 +46,10 @@
         /// Gets or sets the name of the "name" claim.
         /// </summary>
         public string GroupsClaim { get; set; } = "groups";
+
+        /// <summary>
+        /// Gets or sets the scheme (http / https) to use for the provider redirect
+        /// </summary>
+        public string RedirectScheme { get; set; } = "http";
     }
 }
