@@ -220,7 +220,7 @@ namespace Opserver.Controllers
                 nameof(OAuthCallback),
                 ControllerContext.ActionDescriptor.ControllerName,
                 null,
-                Request.Scheme,
+                oidcSettings.RedirectScheme,
                 Request.Host.Value,
                 null
             );

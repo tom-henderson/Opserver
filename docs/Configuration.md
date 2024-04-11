@@ -113,6 +113,8 @@ Not that Okta, OneLogin and Azure all support returning groups in the ID token, 
     "nameClaim": "nameIdentifier",
     // type of claim used to identify the groups the user is a member of 
     "groupsClaim": "groups",
+    // scheme to use for the provider redirect URL (http / https)
+    "redirectScheme": "http"
 }
 ```
 If you just trust everyone because that's the kind of person you are and you've never been burned by love hey, who am I to judge? We've got a config for that:
